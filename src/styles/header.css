@@ -1,10 +1,24 @@
-header {
-    background: black;
-    color: bisque;
+@font-face {
+    font-family: 'DancingScript-Bold';
+    src: url('/src/font/DancingScript-Bold.ttf') format('truetype');
+    font-weight: normal;  
+    font-style: normal;
+  }  
+  
+  header {
+    background-image: url(/src/images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
     border-radius: 10px;
     height: 80px;
     font-size: 3rem;
     justify-content: center;
     align-items: center;
     display: flex;
-}
+    font-family: 'DancingScript-Bold', sans-serif;
+  }
+
+
+  

@@ -30,7 +30,7 @@ function City({ onCitySelect }) {
 
   return (
     <div className="city-container">
-      <label htmlFor="citySelect">Выберите город:</label>
+      <label htmlFor="citySelect"><h2>Выберите город:</h2></label>
       <select id="citySelect" value={selectedCity} onChange={handleCityChange}>
         <option value="">Выбрать город</option>
         {cities.map((city) => (

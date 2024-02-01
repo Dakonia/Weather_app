@@ -1,16 +1,28 @@
-/* city.css */
+@font-face {
+  font-family: 'DancingScript-Bold';
+  src: url('/src/font/DancingScript-Bold.ttf') format('truetype');
+  font-weight: normal;  
+  font-style: normal;
+} 
+
+
 .city-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #333; /* Цвет темного фона */
-    padding: 20px;
-    border-radius: 10px; /* Закругляем углы */
-    color: white; /* Цвет текста */
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px; 
+  color: black; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'DancingScript-Bold', sans-serif;
+}
+
+
   
   label {
-    margin-bottom: 10px; /* Добавляем отступ снизу метке */
+    margin-bottom: 10px; 
   }
   
   select {

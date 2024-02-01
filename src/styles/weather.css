@@ -1,17 +1,28 @@
-/* weather.css */
+@font-face {
+  font-family: 'DancingScript-Bold';
+  src: url('/src/font/DancingScript-Bold.ttf') format('truetype');
+  font-weight: normal;  
+  font-style: normal;
+}
+
 body {
-    background-color: #e1e7eb; /* Синий фон для всей страницы */
+    background-image: url(/src/images/fone.jpg);
+    background-size: cover;
+    background-position: center; /* Размещаем изображение по центру */
+    background-repeat: no-repeat;
+    font-family: 'DancingScript-Bold', sans-serif;
   }
+
   
   .weather-container {
-    background-color: #4caf50;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     border-radius: 10px;
-    color: white;
-    height: 100vh;
+    color: black;
+    height: 100vh; 
+    /* font-family: 'DancingScript-Bold', sans-serif; */
   }
   
   .current-weather {
@@ -19,10 +30,14 @@ body {
   }
   
   .forecast {
-    background-color: #ffeb3b; /* Желтый фон для прогноза на 5 дней */
+    background-image: url(/src/images/block1.jpg);
+    background-size: cover; /* Растягиваем изображение на весь экран */
+    background-position: center; /* Размещаем изображение по центру */
+    background-repeat: no-repeat;
     padding: 20px;
     border-radius: 10px;
     color: black;
+    /* font-family: 'DancingScript-Bold', sans-serif; */
   }
   
   table {
