@@ -37,17 +37,18 @@ function Weather({ latitude, longitude }) {
   return (
     <div className="weather-container">
       <div className="current-weather">
-        <h2>Текущая погода</h2>
+        <h2>Current weather</h2>
         {currentWeather && (
           <div>
-            <h2><p>Температура: {Math.round(currentWeather.main.temp)} °C</p></h2>
-            <h2><p>Описание: {currentWeather.weather[0].description}</p></h2>
+            <h2><p>Temperature: {Math.round(currentWeather.main.temp)} °C</p></h2>
+            <h2><p>Description: {currentWeather.weather[0].description}</p></h2>
           </div>
         )}
       </div>
 
       <div className="forecast">
-        <h2>Прогноз на пять дней</h2>
+        <h2>5 day forecast</h2>
+
         <table>
           <thead>
             <tr>

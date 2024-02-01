@@ -29,16 +29,16 @@ function City({ onCitySelect }) {
 
   return (
     <div className="city-container">
-      <label htmlFor="citySelect"><h2>Выберите город:</h2></label>
+      <label htmlFor="citySelect"><h2>Select a city:</h2></label>
       <select id="citySelect" value={selectedCity} onChange={handleCityChange}>
-        <option value="">Выбрать город</option>
+        <option value="">Select city</option>
         {cities.map((city) => (
           <option key={city.name} value={city.name}>
             {city.name}
           </option>
         ))}
       </select>
-      <p>Выбранные координаты: {latitude}, {longitude}</p>
+      <p>Selected coordinates: {latitude}, {longitude}</p>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import '../styles/footer.css';
 function Footer() {
   return (
     <footer>
-      <p>&copy; 2024 Weather App</p>
+      <p> Varaksin Vladislav</p>
     </footer>
   );
 }
