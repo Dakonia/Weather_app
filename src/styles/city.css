@@ -1,0 +1,26 @@
+/* city.css */
+.city-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333; /* Цвет темного фона */
+    padding: 20px;
+    border-radius: 10px; /* Закругляем углы */
+    color: white; /* Цвет текста */
+  }
+  
+  label {
+    margin-bottom: 10px; /* Добавляем отступ снизу метке */
+  }
+  
+  select {
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  

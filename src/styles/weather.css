@@ -1,0 +1,44 @@
+/* weather.css */
+body {
+    background-color: #e1e7eb; /* Синий фон для всей страницы */
+  }
+  
+  .weather-container {
+    background-color: #4caf50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    height: 100vh;
+  }
+  
+  .current-weather {
+    margin-bottom: 20px;
+  }
+  
+  .forecast {
+    background-color: #ffeb3b; /* Желтый фон для прогноза на 5 дней */
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4caf50; /* Зеленый фон для заголовков таблицы */
+    color: white;
+  }
+  
