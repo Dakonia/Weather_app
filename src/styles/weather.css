@@ -8,7 +8,7 @@
 body {
     background-image: url(/src/images/fone.jpg);
     background-size: cover;
-    background-position: center; /* Размещаем изображение по центру */
+    /* background-position: center;  */
     background-repeat: no-repeat;
     font-family: 'DancingScript-Bold', sans-serif;
   }
@@ -22,22 +22,26 @@ body {
     border-radius: 10px;
     color: black;
     height: 100vh; 
-    /* font-family: 'DancingScript-Bold', sans-serif; */
+    font-family: 'DancingScript-Bold', sans-serif;
+    max-width: 1000px; 
+    margin: 0 auto; 
+    width: 100%;
   }
   
   .current-weather {
     margin-bottom: 20px;
+    font-size: 20px;
   }
   
   .forecast {
     background-image: url(/src/images/block1.jpg);
-    background-size: cover; /* Растягиваем изображение на весь экран */
-    background-position: center; /* Размещаем изображение по центру */
+    background-size: cover; 
+    background-position: center; 
     background-repeat: no-repeat;
     padding: 20px;
     border-radius: 10px;
     color: black;
-    /* font-family: 'DancingScript-Bold', sans-serif; */
+    font-family: 'DancingScript-Bold', sans-serif;
   }
   
   table {
@@ -53,7 +57,22 @@ body {
   }
   
   th {
-    background-color: #4caf50; /* Зеленый фон для заголовков таблицы */
+    background-color: #4caf50; 
     color: white;
   }
   
+
+  @media screen and (max-width: 768px) {
+    .weather-container {
+        padding: 10px;
+    }
+    .forecast {
+        padding: 10px;
+    }
+    table {
+        font-size: 12px;
+    }
+}
+
+
+

@@ -40,8 +40,8 @@ function Weather({ latitude, longitude }) {
         <h2>Текущая погода</h2>
         {currentWeather && (
           <div>
-            <p>Температура: {currentWeather.main.temp} °C</p>
-            <p>Описание: {currentWeather.weather[0].description}</p>
+            <h2><p>Температура: {Math.round(currentWeather.main.temp)} °C</p></h2>
+            <h2><p>Описание: {currentWeather.weather[0].description}</p></h2>
           </div>
         )}
       </div>
@@ -60,7 +60,7 @@ function Weather({ latitude, longitude }) {
             {dailyForecast.map((forecast, index) => (
               <tr key={index}>
                 <td>{new Date(forecast.dt_txt).toLocaleDateString()}</td>
-                <td>{forecast.main.temp}</td>
+                <td>{Math.round(forecast.main.temp)}</td>
                 <td>{forecast.weather[0].description}</td>
               </tr>
             ))}
