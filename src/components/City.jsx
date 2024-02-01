@@ -1,4 +1,3 @@
-// City.jsx
 import React, { useState } from 'react';
 import '../styles/city.css'; // Подключаем стили для компонента
 

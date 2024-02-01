@@ -1,4 +1,3 @@
-// WeatherInfo.jsx
 import React, { useEffect, useState } from 'react';
 import '../styles/weather.css'; // Подключаем стили для компонента
 
